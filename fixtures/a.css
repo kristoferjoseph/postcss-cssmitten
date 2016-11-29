@@ -1,0 +1,13 @@
+@import './styleguide';
+
+.a {
+  background: #EEEEEE;
+  @inherit: %color1;
+}
+
+@media only screen and (min-width:48em) {
+  .a-lg {
+    background: #EEEEEE;
+    @inherit: %color2;
+  }
+}

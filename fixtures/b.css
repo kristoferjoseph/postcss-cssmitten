@@ -1,0 +1,6 @@
+@import './styleguide';
+
+.b {
+  background: #DDDDDD;
+  @inherit: %color1;
+}

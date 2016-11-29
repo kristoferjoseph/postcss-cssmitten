@@ -1,0 +1,22 @@
+.a,
+.b {
+  color: MediumSpringGreen
+}
+
+.a {
+  background: #EEEEEE
+}
+
+.b {
+  background: #DDDDDD
+}
+
+@media only screen and (min-width:48em) {
+  .a-lg {
+    color: Blue
+  }
+
+  .a-lg {
+    background: #EEEEEE
+  }
+}

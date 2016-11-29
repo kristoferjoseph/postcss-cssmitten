@@ -1,0 +1,38 @@
+{
+  "name": "postcss-cssmitten",
+  "version": "1.0.0",
+  "description": "cssmitten💕 postcss collection for generating theme stylesheets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristoferjoseph/postcss-cssmitten.git"
+  },
+  "keywords": [
+    "cssmitten",
+    "postcss",
+    "css",
+    "stylesheet",
+    "theme"
+  ],
+  "author": "@dam",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kristoferjoseph/postcss-cssmitten/issues"
+  },
+  "homepage": "https://github.com/kristoferjoseph/postcss-cssmitten#readme",
+  "dependencies": {
+    "css-mqpacker": "^5.0.1",
+    "postcss": "^5.2.6",
+    "postcss-deduplicate": "^1.0.1",
+    "postcss-import": "^8.2.0",
+    "postcss-inherit": "^4.0.3",
+    "postcss-npm": "^1.1.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
