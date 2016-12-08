@@ -1,5 +1,5 @@
 var postcss = require('postcss')
-var imports = require('postcss-npm')
+var imports = require('postcss-import')
 var inherit = require('postcss-inherit')
 var dedupe  = require('postcss-deduplicate')
 var mqpacker = require('css-mqpacker')

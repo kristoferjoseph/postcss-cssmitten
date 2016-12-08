@@ -2,6 +2,9 @@
 
 .a {
   background: #EEEEEE;
+}
+
+.a {
   @inherit: %color1;
 }
 
