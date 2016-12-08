@@ -1,6 +1,6 @@
 {
   "name": "postcss-cssmitten",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cssmitten💕 postcss collection for generating theme stylesheets.",
   "main": "index.js",
   "scripts": {
